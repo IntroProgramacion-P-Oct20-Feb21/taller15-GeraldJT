@@ -16,9 +16,9 @@ public class Principal {
      */
     public static void main(String[] args) {
         // 
-        double sueldosSucursal1 = 0;
-        double sueldosSucursal2 = 0;
-        System.out.printf("La suma total de sueldos es %.2f\n", 
+        double sueldosSucursal1 = LecturaArchivo.leerRegistros1() ;
+        double sueldosSucursal2 = LecturaArchivo.leerRegistros2();
+        System.out.printf("La suma total de sueldos es %.2f$\n", 
                 sueldosSucursal1 + sueldosSucursal2);
     }
     
